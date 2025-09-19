@@ -1,0 +1,20 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class {{ class }} extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        {{ Models }}::updateOrCreate(['email' => 'admin@admin.com'], [
+            'name' => 'admin',
+            'password' => bcrypt('12345678')
+        ]);
+    }
+}

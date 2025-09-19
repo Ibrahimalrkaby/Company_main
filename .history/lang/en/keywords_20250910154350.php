@@ -1,0 +1,44 @@
+<?php
+
+return [
+
+    'dashboard' => 'Dashboard',
+    'welcome' => 'Welcome',
+    'index' => 'Index',
+
+    // Auth
+    'sign_in' => 'Sign Up',
+    'email' => 'Email',
+    'password' => 'Password',
+    'remember_me' => 'Remember Me',
+    'login' => "Login",
+    'logout' => 'Logout',
+
+    //COMMON
+    'home' => 'Home',
+    'component' => 'Component',
+    'title' => 'Title',
+    'description' => 'Description',
+    'icon' => 'Icon',
+    'record_not_found' => 'Record Not Found',
+    'action' => 'Action',
+    'add_new' => 'Add New',
+    'submit' => 'Submit',
+    'cerate_successfully' => 'Your Record Created Successfully',
+    'updated_successfully' => 'Your Record Update Successfully',
+    'deleted_successfully' => 'Your Record has been deleted Successfully',
+
+    //FEATURE
+    'feature' => 'Feature',
+    'show_feature' => 'Show Feature',
+    'create_feature' => 'Create Feature',
+    'edit_feature' => 'Edit Feature',
+    'add_feature' => 'Add New Feature',
+
+    //SERVICES
+    'service' => 'Service',
+    'create_service' => 'Create Service',
+    'show_service' => 'Show Service',
+    'edit_service' => 'Edit Service',
+    'add_service' => 'Add New Services',
+];
